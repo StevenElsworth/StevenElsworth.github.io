@@ -1,0 +1,29 @@
+// Bootstrap overrides for this template
+.text-primary {
+  color: white !important;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn-default {
+  @include button-variant(white, white, white);
+}
+
+.btn-primary {
+  @include button-variant(white, white, white);
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+  @include sans-serif-font;
+}
+
+.btn-xl {
+  padding: 15px 30px;
+}
